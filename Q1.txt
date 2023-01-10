@@ -1,0 +1,28 @@
+T1. Given a list of lists(2-d lists) of length N and max. length of sub-lists will be P, Q queries will be provided in the form of a list(of max. length P).
+    For every query, find, in the list present, a sub-list which has same-length as the list provided in the query and have all the same elements. 
+    If present, do not insert the query's list, otherwise insert it in the list.
+    NOTE: After every query, print the original list.
+    Ex1 =>
+        Input :- 3 3
+                3 1 2 3
+                2 4 5
+                4 6 7 8 9
+                2 2 4
+                2 4 5
+                2 7 8
+        
+        Output :-
+                [[1,2,3],[4,5],[6,7,8,9],[2,4]]
+                [[1,2,3],[4,5],[6,7,8,9],[2,4]]
+                [[1,2,3],[4,5],[6,7,8,9],[2,4],[7,8]]
+    
+    Constraints => 1<=N<=10^3, 1<=P<=20, 1<=Q<=10^3
+
+
+3 3
+3 1 2 3
+2 4 5
+4 6 7 8 9
+2 2 4
+2 4 5
+2 7 8
